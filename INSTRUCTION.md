@@ -46,7 +46,7 @@ kubectl apply -f .infrastructure/clusterIp.yml
 1. Resource utilization for horizontal scaling in horizontal pod autoscaler \
     Optimal replicas in small utilization is 2 and in high load (+-70%) up to 5 replicas
 
-1. Update trategy configuration \
+1. Update strategy configuration \
     for strategy maximum unavailbe 1 pod and max surge 1 for easy app access during rolling update
 
 ## Easy access to app
